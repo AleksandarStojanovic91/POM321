@@ -15,8 +15,11 @@ public class PolovniAutomobili extends BaseTest{
     }
 
     @AfterMethod
-    public void tearDown(){
-        quit();
+    @Parameters({"quit"})
+    public void tearDown(String quit){
+        if(quit.equalsIgnoreCase("Yes")) {
+            quit();
+        }
     }
 
     @Test
