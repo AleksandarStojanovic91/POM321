@@ -24,6 +24,7 @@ public class PolovniAutomobili extends BaseTest{
     public void test1(String env) throws Exception {
         openApp(env);
         new HomePagePF(driver).searchVehicle("Alfa Romeo","33");
+        //Test
     }
 
 }
