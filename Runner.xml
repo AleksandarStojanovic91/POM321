@@ -5,6 +5,7 @@
 
     <parameter name="browser" value="CHROME"/>
     <parameter name="env" value="PROD"/>
+    <parameter name="quit" value="NO"/>
 
     <test name="Test1">
         <classes>
