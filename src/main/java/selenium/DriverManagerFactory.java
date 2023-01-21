@@ -1,4 +1,4 @@
-package selenium_core;
+package selenium;
 
 public class DriverManagerFactory {
 

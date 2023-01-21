@@ -30,7 +30,6 @@ Feature: Login
     And I click login button
     Then I should see error message "Epic sadface: Username and password do not match any user in this service"
 
-  @Run
   Scenario Outline: Login with invalid credentials
   As I user I should not be able to login to the app using wrong username
 

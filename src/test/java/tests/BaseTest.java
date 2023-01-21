@@ -5,8 +5,8 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import selenium_core.DriverManager;
-import selenium_core.DriverManagerFactory;
+import selenium.DriverManager;
+import selenium.DriverManagerFactory;
 
 import java.io.File;
 import java.io.IOException;
