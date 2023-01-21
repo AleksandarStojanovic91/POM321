@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseTest {
 
     DriverManager driverManager;
-    WebDriver driver;
+    public WebDriver driver;
     String path = "src/results/screenshots/";
 
     public void init(String type) throws Exception {
