@@ -5,8 +5,8 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import selenium_core.DriverManager;
-import selenium_core.DriverManagerFactory;
+import selenium.DriverManager;
+import selenium.DriverManagerFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseTest {
 
     DriverManager driverManager;
-    WebDriver driver;
+    public WebDriver driver;
     String path = "src/results/screenshots/";
 
     public void init(String type) throws Exception {
